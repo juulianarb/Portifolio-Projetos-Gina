@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #EDEDED;
+  }
+ 
+body {
+    margin: 0;
+    display: inline;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #EDEDED;
+  }
+
+  .caixa {
+    width: 100%;
+  }
+
+  .listadefilmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+    border: 2px #37CFE6 solid;
+   /* background-color: #9FDBDE; */
+   background-color: #919191;
+  
+  }
+
+  input {
+    margin: 10px;
+    height: 25px;
+    width: 500px;
+    border: 2px black solid;
+  }
+
+  button {
+    font-family: "Montserrat", sans-serif;
+    height: 30px;
+    width: 100px;
+    background-color: #37CFE6;
+    border-radius: 5%;
+    border: 2px black solid;
+    
+  }
+
+  button:hover {
+    background-color: #DBDBDB;
+    border: 2px #37CFE6 solid;
+    transition: 0.2s;
+    color: #fff;
+  }
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    cursor: default;
+    font-size: 35px;
+  }
+
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    cursor: default;
+    color: black;
+  }
+
+  h3:hover {
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: default;
+  }
+
+  
