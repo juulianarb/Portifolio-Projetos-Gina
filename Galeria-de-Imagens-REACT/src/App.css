@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffe3d8;
+  color: #000;
+  font-family: 'Outfit', sans-serif;
+}
+
+.caixa-galeria {
+  border: 1px #000 solid;
+  border-radius: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background-image: url('assets/patinhas.jpg');
+  background-size: cover;
+
+}
+
+h2 {
+  font-size: 40px;
+  color: #e3b6b1;
+  text-shadow: 2px 2px 2px #000;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: #29104a 3px solid;
+  border-radius: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-removerImagem {
+  margin: 10px;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #e3b6b1;
+  color: #29104a;
+  border: #29104a solid 2px;
+  border-radius: 20px;
+  transition: .3s;
+}
+
+.btn-removerImagem:hover {
+  background-color: #29104a;
+  color: #e3b6b1;
+  border: #e3b6b1 solid 2px;
+}
+
+.btn-adicionarImagem {
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #e3b6b1;
+  color: #29104a;
+  border: #29104a solid 2px;
+  border-radius: 20px;
+  transition: .3s;
+}
+
+.btn-adicionarImagem:hover {
+  background-color: #29104a;
+  color: #e3b6b1;
+  border: #e3b6b1 solid 2px;
+}
