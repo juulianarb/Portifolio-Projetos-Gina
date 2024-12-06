@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  background-color: #033043;
+}
+
+.caixa-contatos {
+  background-color: #e9e3d5;
+  border: solid 2px #0a7273;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  padding: 15px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #033043;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  outline: none;
+  margin: 5px;
+  border: #033043 2px solid;
+  font-size: 15px;
+}
+
+.telefone-input {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  margin: 5px;
+  border: #033043 2px solid;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  display: none;
+}
+
+.btn-adicionar {
+  height: 30px;
+  cursor: pointer;
+  transition: .3s;
+  border: #0a7273 2px solid;
+  border-radius: 5px;
+  background-color: #fda521;
+  color: #033043;
+}
+
+.btn-adicionar:hover {
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  color: #fda521;
+  border: #0a7273 2px solid;
+}
+
+.btn-remover {
+  margin-left: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: .3s;
+  border: #0a7273 2px solid;
+  border-radius: 5px;
+  background-color: #fda521;
+  color: #033043;
+}
+
+.btn-remover:hover {
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  color: #fda521;
+  border: #0a7273 2px solid;
+}
+
+ul li {
+  list-style: none;
+}
