@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.caixa {
+  border: solid 4px orange;
+  border-radius: 15%;
+  padding: 50px;
+  background-color: #fff;
+}
+
+h2 {
+  color: orange;
+  text-shadow: 2px 2px 4px #000000;
+  cursor: default;
+  font-size: 37px;
+}
+
+h2:hover {
+  color: #4F85A0;
+  transition: 0.7s;
+}
+
+h3 {
+  color: orange;
+}
+
+p {
+  color: #4F85A0;
+}
+
+label {
+  color: #4F85A0;
+}
+
+select {
+  margin: 10px;
+  padding: 4px;
+  border: 2px solid #4F85A0;
+  color: #000000;
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid #4F85A0;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fff;
+  color: #4F85A0;
+}
+
+input::-webkit-inner-spin-button {
+  display: none;
+}
