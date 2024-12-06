@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Outfit', sans-serif;
+  background-color: #fbfcf8;
+}
+
+.caixa-calculadora {
+  width: 350px;
+  height: 420px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  width: 90%;
+  height: 30px;
+  cursor: default;
+  border: #000 2px solid;
+  background-color: transparent;
+  font-size: 20px;
+  text-align: right;
+}
+
+button {
+  height: 40px;
+  width: 50px;
+  margin: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #d3d3d3;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.laranja {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.laranja:hover {
+  background-color: #fc9b00;
+  color: #000;
+}
+
+.btn-limpar {
+  width: 80px;
+  height: 32px;
+  background-color: #fc9b00;
+  color: #fff;
+}
+
+.btn-limpar:hover {
+  background-color: transparent;
+  color: #f39c12;
+  border: 2px solid #f39c12;
+}
